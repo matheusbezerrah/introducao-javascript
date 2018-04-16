@@ -132,3 +132,27 @@ button[disabled=disabled], button:disabled {
 .campo-invalido{
 	border: 1px solid red;
 }
+
+.container button{
+	margin-left: 40%;
+}
+
+.input-texto {
+	margin: 15px;
+	height: 50px;
+	font-size: 20px;
+	font-family: verdana;
+}
+
+fieldset{
+	border: 3px solid lightblue;
+}
+
+fieldset legend{
+	font-size: 25px;
+	font-family: verdana;
+}
+
+.form-paciente{
+	text-align: center;
+}
