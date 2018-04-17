@@ -1,0 +1,14 @@
+COMANDOS E PROPRIEDADES JAVASCRIPT
+querySelector()
+querySelectorAll()
+textContent
+style.[propiedade]
+ClassListAdd([classe-nome])
+[variavel-int].toFixed([qtd-casas-decimais])
+---- AddEventListener("[evento-on]",[function()]) ----
+event.preventDefault();
+document.createElement("[tag]")
+[elemento/objeto-pai].appendChild([atributo-filho])
+form.reset()
+[array].push([valor]) - adiciona valor no array
+[array].forEach(function([variável do loop]){})
