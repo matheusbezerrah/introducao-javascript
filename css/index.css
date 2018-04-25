@@ -156,3 +156,12 @@ fieldset legend{
 .form-paciente{
 	text-align: center;
 }
+
+.fundo-invalido{
+	background-color: #EC122AFF;
+}
+
+#erro{
+	color : #EC122AFF;
+	font-size: 20px;
+}
