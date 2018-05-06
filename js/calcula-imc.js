@@ -17,6 +17,8 @@ for(var i = 0; i < arrayPacientes.length; i++){
 	var gordura = tdGordura.textContent;
 	var imc = calculaImc(peso, altura);
 
+	tdImc.textContent = imc;
+
 	if (peso > 300){
 		paciente.classList.add("fundo-invalido");
 		var erro = document.querySelector("#erro");
