@@ -13,7 +13,6 @@ for(var i = 0; i < arrayPacientes.length; i++){
 	var altura = tdAltura.textContent;
 	
 	tdImc.textContent = calculaImc(peso, altura);
-
 }
 
 function calculaImc (peso, altura) {
