@@ -23,6 +23,7 @@ botaoInserir.addEventListener("click",function(){
 function montaPacienteTr(paciente){
 	var pacienteTr = document.createElement("tr");
 
+	pacienteTr.classList.add("paciente");
 	pacienteTr.appendChild(montaPacienteTd(paciente.nome, "info-nome"));
 	pacienteTr.appendChild(montaPacienteTd(paciente.peso, "info-peso"));
 	pacienteTr.appendChild(montaPacienteTd(paciente.altura, "info-altura"));
