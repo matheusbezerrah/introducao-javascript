@@ -5,9 +5,13 @@ botaoBuscar.addEventListener("click",function(){
 	xhr.open("GET","https://api-pacientes.herokuapp.com/pacientes");
 
 	xhr.addEventListener("load",function(){
-		console.log(xhr.responseText);
+		var pacientes = JSON.parse(xhr.responseText);
+
+		pacientes.forEach(function(paciente){
+			adicionaPacientesTabela(paciente);
+		});
+
 	});
 
 	xhr.send();
 });
-

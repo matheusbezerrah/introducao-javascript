@@ -61,7 +61,6 @@ table{
 td, th {
 	padding: .7em;
 	margin: 0;
-	border: 1px solid #ccc;
 	text-align: center;
 }
 
@@ -100,17 +99,14 @@ button{
 	padding: .5em 2em;
 	border: 0;
 	border-bottom: 3px solid;
-	font-size: 1.2em;
 	cursor: pointer;
 	margin: 0;
-	margin-top: -3px;
 	color: #fff;
 	background-color:#0c8cd3;
 	border-color: #04324c;
-	width: 20%;
     display: block;
-    clear: both;
-    margin: 10px 0px;
+    clear: both
+    margin-left: 203px;
 
 }
 
@@ -134,7 +130,7 @@ button[disabled=disabled], button:disabled {
 }
 
 .container button{
-	margin-left: 40%;
+	
 }
 
 .input-texto {

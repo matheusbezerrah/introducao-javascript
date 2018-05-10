@@ -17,9 +17,21 @@
 		<main>
 			<section class="container">
 				<h2>Meus pacientes</h2>
-				<label>Filtrar</label>
-				<input type="text" name="filtro-nome" id="nome-filtro" class="campo-filtro-paciente" placeholder="Digite o nome">
-				<span id="qtd_caracteres">0</span>
+				<table>
+					<tr>
+						<td width="60%">
+							<label>Filtrar</label>
+							<input type="text" name="filtro-nome" id="nome-filtro" class="campo-filtro-paciente" placeholder="Digite o nome">
+							<span id="qtd_caracteres">0</span>
+						</td>
+						<td width="20%">
+							<button id="btn-buscar-pacientes">Buscar Pacientes</button>
+						</td>
+						<td width="20%">
+							<button id="btn-novo">Novo</button>
+						</td>
+					</tr>
+				</table>
 				<table>
 					<thead>
 						<tr>
@@ -71,8 +83,6 @@
 						</tr>
 					</tbody>
 				</table>
-				<button id="btn-buscar-pacientes">Buscar Pacientes</button>
-				<button id="btn-novo">Novo</button>
 
 				<div id="div-form-paciente">
 					<fieldset>

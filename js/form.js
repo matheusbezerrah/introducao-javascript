@@ -11,14 +11,19 @@ botaoNovo.addEventListener("click",function(){
 botaoInserir.addEventListener("click",function(){
 	var formPaciente = document.querySelector("#form-paciente")
 	var paciente = obtemPaciente(formPaciente);
-	var tabela = document.querySelector("#tabela-pacientes");
-	
-	pacienteTr = montaPacienteTr(paciente);
-	tabela.appendChild(pacienteTr);
-	
+
+	adicionaPacientesTabela(paciente);
+
 	formPaciente.reset();
 	escondeForm();	
 });
+
+function adicionaPacientesTabela(paciente){
+	var tabela = document.querySelector("#tabela-pacientes");
+
+	pacienteTr = montaPacienteTr(paciente);
+	tabela.appendChild(pacienteTr);
+}
 
 function montaPacienteTr(paciente){
 	var pacienteTr = document.createElement("tr");
